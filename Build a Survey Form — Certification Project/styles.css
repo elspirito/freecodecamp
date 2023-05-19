@@ -1,7 +1,20 @@
 body {
-    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background: hsla(240, 100%, 24%, 0.5);
+    font-family: sans-serif;
 }
+
 form {
-    max-width: 80vw;
+    background: hsla(240, 30%, 15%, 0.8);
+    color: white;
+    max-width: 70vw;
     margin: 0 auto;
+}
+fieldset {
+    border: 0;
+}
+input {
+    display: block;
+    border: 0;
+    height: 2em;
+    border-radius: 4px;
 }
