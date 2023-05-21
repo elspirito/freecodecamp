@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Survey Form</title>
@@ -10,18 +10,54 @@
 <p>Thank you for taking the time to help us improve the platform</p>
 <form id="survey-form">
     <fieldset>
-        <label>Name<input /></label>
-        <label>Email<input /></label>
-        <label>Age (optional)<input /></label>
-        <label>Which option best describes your current role?<input /></label>
-        <label>
-            123<input type="radio" />
-            123<input type="radio" />
-            123<input type="radio" />
+        <label for="name">Name<input id="name" placeholder="Enter your name" type="text" required /></label>
+        <label for="email">Email<input id="email" placeholder="Enter your email" type="email" required /></label>
+        <label for="number">Age (optional)<input id="number" placeholder="Age" type="number" /></label>
+        <label>Which option best describes your current role?
+            <select>
+                <option value="">Select current role</option>
+                <option>Student</option>
+                <option>Full Time Job</option>
+                <option>Full Time Learner</option>
+                <option>Prefer not to say</option>
+                <option>Other</option>
+            </select>
+        </label>
+        <label>Would you recommend freeCodeCamp to a friend?
+            <input name="recommendation" type="radio"  checked/> Definitely
+                <input name="recommendation" type="radio" /> Maybe
+                <input name="recommendations" type="radio" /> Not sure
         </label>
     </fieldset>
-    <fieldset></fieldset>
-    <fieldset></fieldset>
+    <fieldset>
+        <label>What is your favorite feature of freeCodeCamp?
+            <select>
+                <option>Select an option</option>
+                <option>Projects</option>
+                <option>Community</option>
+                <option>Open Source</option>
+            </select>
+        </label>
+        <label>
+            <label><input type="checkbox" /> Front-end Projects</label>
+            <label><input type="checkbox" /> Back-end Projects</label>
+            <label><input type="checkbox" /> Data Visualization</label>
+            <label><input type="checkbox" /> Challenges</label>
+            <label><input type="checkbox" /> Open Source Community</label>
+            <label><input type="checkbox" /> Gitter Help Rooms</label>
+            <label><input type="checkbox" /> Videos</label>
+            <label><input type="checkbox" /> City Meetups</label>
+            <label><input type="checkbox" /> Wiki</label>
+            <label><input type="checkbox" /> Forum</label>
+            <label><input type="checkbox" /> Additional Courses</label>
+        </label>
+    </fieldset>
+    <fieldset>
+        <label>Any comments or suggestions?
+            <textarea rows="3" cols="20">
+            </textarea>
+        </label>
+    </fieldset>
 </form>
 </body>
 </html>
