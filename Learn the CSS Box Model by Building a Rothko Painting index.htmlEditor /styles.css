@@ -20,6 +20,7 @@
     background-color: #efb762;
     margin: 20px auto;
     box-shadow: 0 0 3px 3px #efb762;
+    border-radius: 9px;
 }
 .two {
     width: 475px;
@@ -27,7 +28,7 @@
     background-color: #8f0401;
     margin: 0 auto 20px;
     box-shadow: 0 0 3px 3px #8f0401;
-    border-radius: 9px;
+    border-radius: 8px 10px 8px 10px;
 }
 .three {
     width: 91%;
