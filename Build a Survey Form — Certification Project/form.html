@@ -7,7 +7,7 @@
 </head>
 <body>
 <h1 id="title">freeCodeCamp Survey Form</h1>
-<p>Thank you for taking the time to help us improve the platform</p>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
 <form id="survey-form">
     <fieldset>
         <label for="name">Name<input id="name" placeholder="Enter your name" type="text" required /></label>
@@ -16,18 +16,18 @@
         <label>Which option best describes your current role?
             <select>
                 <option value="">Select current role</option>
-                <option>Student</option>
-                <option>Full Time Job</option>
-                <option>Full Time Learner</option>
-                <option>Prefer not to say</option>
-                <option>Other</option>
+                <option value="student">Student</option>
+                <option value="job">Full Time Job</option>
+                <option value="learner">Full Time Learner</option>
+                <option value="none">Prefer not to say</option>
+                <option value="other">Other</option>
             </select>
         </label>
-        <label>Would you recommend freeCodeCamp to a friend?
-            <input name="recommendation" type="radio"  checked/> Definitely
-                <input name="recommendation" type="radio" /> Maybe
-                <input name="recommendations" type="radio" /> Not sure
-        </label>
+        Would you recommend freeCodeCamp to a friend?
+            <label for="definetely" class="recomend"><input id="definetely" value="definitely" name="recommend" type="radio"  checked/> Definitely</label>
+            <label for="maybe" class="recomend"><input id="maybe" value="maybe" name="recommend" type="radio" /> Maybe</label>
+            <label for="not_sure" class="recomend"><input id="not_sure" value="not_sure" name="recommend" type="radio" /> Not sure</label>
+
     </fieldset>
     <fieldset>
         <label>What is your favorite feature of freeCodeCamp?
@@ -38,18 +38,18 @@
                 <option>Open Source</option>
             </select>
         </label>
-        <label>
-            <label><input type="checkbox" /> Front-end Projects</label>
-            <label><input type="checkbox" /> Back-end Projects</label>
-            <label><input type="checkbox" /> Data Visualization</label>
-            <label><input type="checkbox" /> Challenges</label>
-            <label><input type="checkbox" /> Open Source Community</label>
-            <label><input type="checkbox" /> Gitter Help Rooms</label>
-            <label><input type="checkbox" /> Videos</label>
-            <label><input type="checkbox" /> City Meetups</label>
-            <label><input type="checkbox" /> Wiki</label>
-            <label><input type="checkbox" /> Forum</label>
-            <label><input type="checkbox" /> Additional Courses</label>
+        <label>What would you like to see improved? (Check all that apply)
+            <label class="improved"><input name="improved" type="checkbox" /> Front-end Projects</label>
+            <label class="improved"><input name="improved" type="checkbox" /> Back-end Projects</label>
+            <label class="improved"><input name="improved" type="checkbox" /> Data Visualization</label>
+            <label class="improved"><input name="improved" type="checkbox" /> Challenges</label>
+            <label class="improved"><input name="improved" type="checkbox" /> Open Source Community</label>
+            <label class="improved"><input name="improved" type="checkbox" /> Gitter Help Rooms</label>
+            <label class="improved"><input name="improved" type="checkbox" /> Videos</label>
+            <label class="improved"><input name="improved" type="checkbox" /> City Meetups</label>
+            <label class="improved"><input name="improved" type="checkbox" /> Wiki</label>
+            <label class="improved"><input name="improved" type="checkbox" /> Forum</label>
+            <label class="improved"><input name="improved" type="checkbox" /> Additional Courses</label>
         </label>
     </fieldset>
     <fieldset>
@@ -58,6 +58,7 @@
             </textarea>
         </label>
     </fieldset>
+    <input type="submit" value="Send me" />
 </form>
 </body>
 </html>
