@@ -30,3 +30,9 @@ p {
 .bold {
     font-weight: 800;
 }
+.large {
+    height: 10px;
+}
+.large, .medium {
+    background-color: black;
+}
