@@ -119,3 +119,7 @@ p {
     padding-left: 15px;
     font-size: 20px;
 }
+.question {
+    border: none;
+    padding-bottom: 0;
+}
