@@ -123,3 +123,7 @@ p {
     border: none;
     padding-bottom: 0;
 }
+.answers-list {
+    list-style: none;
+    padding: 0;
+}
