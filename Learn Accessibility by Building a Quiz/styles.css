@@ -75,3 +75,8 @@ nav > ul > li:hover {
 p::before {
     content: 'Question #';
 }
+section {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto 10px;
+}
