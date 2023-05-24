@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    color: #333;
+}
+main {
+    background: #eee;
+}
+blockquote {
+    font-style: italic;
+    max-width: 40%;
+    margin: 10px auto 0;
+    padding: 25px;
+}
+h1, h2, h3 {
+    text-align: center;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+header {
+    padding: 20px;
+}
+header p {
+    text-align: center;
+}
+#img-div {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 50px;
+    background: white;
+    border-radius: 8px;
+}
+#image {
+    max-width: 100%;
+}
+#tribute-info {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+#tribute-info > ul > li {
+    padding: 5px;
+    list-style: none;
+}
+.date {
+    font-weight: 700;
+}
+#footer {
+    background: #eee;
+    padding: 50px;
+}
