@@ -142,3 +142,6 @@ footer {
     color: white;
     justify-content: center;
 }
+footer, footer a{
+    color: #eee;
+}
