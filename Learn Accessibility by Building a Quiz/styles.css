@@ -145,3 +145,7 @@ footer {
 footer, footer a{
     color: #eee;
 }
+address {
+    text-align: center;
+    padding: 20px;
+}
