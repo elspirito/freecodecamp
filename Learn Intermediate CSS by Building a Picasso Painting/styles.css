@@ -112,3 +112,7 @@ body {
 .blue {
     background: #1E90FF;
 }
+#blue-left {
+    width: 500px;
+    height: 300px;
+}
