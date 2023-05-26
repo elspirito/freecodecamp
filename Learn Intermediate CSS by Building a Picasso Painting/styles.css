@@ -31,3 +31,8 @@ body {
     top: -140px;
     left: 0;
 }
+#black-mask {
+    width: 100%;
+    height: 50px;
+    background: rgb(45, 31, 19);
+}
