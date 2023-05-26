@@ -18,6 +18,10 @@ span[class~="sr-only"] {
     margin: -1px !important;
 }
 
+span {
+    font-weight: normal;
+}
+
 h1 {
     max-width: 37.25rem;
     margin: 0 auto;
@@ -59,7 +63,4 @@ section {
 }
 .table-wrap {
     padding: 0 0.75rem 1.5rem 0.75rem;
-}
-span:not(.sr-only) {
-    font-weight: normal;
 }
