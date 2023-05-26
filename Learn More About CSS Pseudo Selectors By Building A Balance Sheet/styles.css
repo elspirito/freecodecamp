@@ -5,3 +5,6 @@ body {
     font-family: sans-serif;
     color: #0a0a23;
 }
+span[class~="sr-only"] {
+    border: 0;
+}
