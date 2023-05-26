@@ -57,3 +57,8 @@ body {
     display: block;
     margin: 65% auto auto auto;
 }
+#tan-table {
+    width: 450px;
+    height: 140px;
+    background: #D2691E;
+}
