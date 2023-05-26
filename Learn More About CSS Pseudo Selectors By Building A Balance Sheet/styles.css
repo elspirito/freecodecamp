@@ -125,3 +125,10 @@ tr.data th {
     text-align: left;
     padding: 0.3rem 0 0 0.5rem;
 }
+tr.data th .description {
+    display: block;
+    font-weight: normal;
+    font-style: italic;
+    padding: 1rem 0 0.75rem;
+    margin: 0 -13.5rem 0 0;
+}
