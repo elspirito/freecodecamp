@@ -122,4 +122,7 @@ body {
 #blue-right {
     width: 400px;
     height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
 }
