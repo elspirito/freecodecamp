@@ -3,4 +3,6 @@ body {
 }
 #back-wall {
     background: #8B4513;
+    width: 100%;
+    height: 60%;
 }
