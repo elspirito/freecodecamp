@@ -128,3 +128,8 @@ tr.data th .description {
     padding: 1rem 0 0.75rem;
     margin: 0 -13.5rem 0 0;
 }
+tr.data td {
+    vertical-align: top;
+    text-align: right;
+    padding: 0.3rem 0.25rem 0;
+}
