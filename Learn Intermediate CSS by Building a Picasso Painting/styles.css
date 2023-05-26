@@ -40,3 +40,8 @@ body {
     left: 0;
     z-index: 1;
 }
+#gray-instrument {
+    width: 15%;
+    height: 40%;
+    background: rgb(167, 162, 117);
+}
