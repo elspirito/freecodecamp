@@ -18,8 +18,10 @@ html {
     padding-left: 2px;
 }
 .key {
-    background: #fff;
+    background-color: #ffffff;
     position: relative;
     width: 41px;
     height: 175px;
+    margin: 2px;
+    float: left;
 }
