@@ -167,3 +167,7 @@ body {
     border-right-color: gold;
     display: inline-block;
 }
+#guitar {
+    width: 100%;
+    height: 100px;
+}
