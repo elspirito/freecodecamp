@@ -17,3 +17,9 @@ html {
     height: 180px;
     padding-left: 2px;
 }
+.key {
+    background: #fff;
+    position: relative;
+    width: 41px;
+    height: 175px;
+}
