@@ -203,3 +203,9 @@ body {
     left: 200px;
     z-index: 3;
 }
+.eyes {
+    width: 35px;
+    height: 20px;
+    background: #8B4513;
+    border-radius: 20px 50%;
+}
