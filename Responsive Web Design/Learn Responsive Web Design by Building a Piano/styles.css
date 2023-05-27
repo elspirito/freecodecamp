@@ -26,6 +26,8 @@ html {
     float: left;
 }
 .key.black--key::after {
-    background: #1d1e22;
+    background-color: #1d1e22;
     content: "";
+    position: absolute;
+    left: -18px;
 }
