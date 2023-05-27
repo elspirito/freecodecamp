@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+    #navbar {
+        display: none;
+    }
+}
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: sans-serif;
+    color: #333;
+    display: flex;
+    margin: 0;
+}
+p, ul>li {
+    color: #666;
+}
+#navbar {
+    border: 1px solid #999;
+    min-width: 300px;
+}
+.nav-link {
+    display: block;
+    padding: 20px 40px;
+    border-bottom: 1px solid #999;
+    color: #666;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: #222;
+}
+#main-doc {
+    padding: 0 40px 40px;
+}
+code {
+    background: #eeeeee;
+    display: block;
+    padding: 10px;
+    border-radius: 8px;
+    color: #999;
+    margin: 5px auto;
+}
