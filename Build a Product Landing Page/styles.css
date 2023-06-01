@@ -22,6 +22,9 @@ main {
     grid-column: span 1;
     width: 15rem;
 }
+#nav-bar {
+    position: fixed;
+}
 .pricing {
     display: flex;
     gap: 30px;
