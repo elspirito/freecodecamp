@@ -7,3 +7,8 @@ header {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
+#header-img {
+    grid-column: span 1;
+    width: 15rem;
+    place-items: ;
+}
