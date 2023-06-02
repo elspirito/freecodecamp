@@ -1,0 +1,38 @@
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+}
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #eeeeee;
+    font-family: Helvetica, sans-serif;
+}
+h1 {
+    font-size: 56px;
+}
+#navbar {
+    height: 80px;
+    background: var(--main-red);
+}
+
+/*WELCOME SECTION*/
+
+#welcome-section {
+    height: 100vh;
+    background: var(--main-gray);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#welcome-section p {
+    color: var(--main-red);
+}
+
+/*WELCOME SECTION*/
