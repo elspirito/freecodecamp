@@ -3,11 +3,13 @@
     --main-red: #be3144;
     --main-blue: #45567d;
     --main-gray: #303841;
+    --main-black: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
 *, ::before, ::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body {
     color: var(--main-white);
@@ -17,24 +19,44 @@ h1 {
     font-size: 56px;
     font-weight: 800;
 }
+h2 {
+    font-size: 40px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 0rem;
+}
 #navbar {
     height: 80px;
     background: var(--main-red);
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    position: sticky;
+    top:0;
+}
+.nav-links {
+    display: flex;
+    height: 100%;
 }
 .nav-link {
-    padding: 8px 16px;
+    padding: 0 16px;
     font-size: 24px;
     color: var(--main-white);
+    text-decoration: none;
+    justify-content: stretch;
+    display: flex;
+    align-items: center;
+}
+.nav-link:hover {
+    background: var(--main-blue);
 }
 
 /*WELCOME SECTION*/
 
 #welcome-section {
-    height: 100vh;
-    background: var(--main-gray);
+    height: 80vh;
+    background: var(--main-black);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -45,4 +67,62 @@ h1 {
     font-size: 32px;
 }
 
-/*WELCOME SECTION*/
+/*PROJECTS SECTION*/
+
+#projects {
+    height: calc(100% - 6.8rem);
+    background: var(--main-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+.projects-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 2rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+.project-item {
+    text-decoration: none;
+}
+.project-item p:hover::after {
+    content: " />";
+    color: var(--main-red);
+}
+.project-item img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.project-item p {
+    background: var(--main-gray);
+    color: var(--main-white);
+    padding: 1rem;
+}
+/*PROFILES SECTION*/
+#profiles {
+    background: var(--main-gray);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#profiles p{
+    margin-bottom: 100px;
+}
+.social-icons a {
+    color: var(--main-white);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px;
+}
+.fab, .fas {
+    font-weight: normal;
+    padding: 5px;
+}
