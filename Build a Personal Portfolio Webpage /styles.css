@@ -1,3 +1,9 @@
+@media screen and (max-width: 667){
+    #welcome-section, #projects-section, #profiles-section {
+        height: 40vh;
+    }
+}
+
 :root {
     --main-white: #f0f0f0;
     --main-red: #be3144;
@@ -104,7 +110,7 @@ h1, h2, h3 {
     padding: 1rem;
 }
 /*PROFILES SECTION*/
-#profiles {
+#profiles-section {
     background: var(--main-gray);
     height: 80vh;
     display: flex;
@@ -112,7 +118,7 @@ h1, h2, h3 {
     align-items: center;
     justify-content: center;
 }
-#profiles p{
+#profiles-section p{
     margin-bottom: 100px;
 }
 .social-icons a {
